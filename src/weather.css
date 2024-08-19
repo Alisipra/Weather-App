@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(31, 31, 78);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.box {
+  background-color: white;
+  color: white;
+  width: 450px;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  flex-direction: column;
+  border-radius: 20px;
+  background: content-box radial-gradient(crimson, skyblue);
+}
+.box h3 {
+  margin-top: 20px;
+  padding: 23px;
+  font-size: 25px;
+}
+form {
+  text-align: center;
+  margin: 10px;
+}
+form input {
+  padding: 10px;
+  border-radius: 10px;
+}
+form button {
+  padding: 10px;
+  background-color: lightcyan;
+  color: darkcyan;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.loadingHide {
+  display: none;
+}
+.loadingShow {
+  display: block;
+}
